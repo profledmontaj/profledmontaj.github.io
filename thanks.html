@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+
+
+  <style>
+  body {
+      padding: 0;
+      margin: 0;
+  }
+  .thanks{
+      width: 100%;
+      min-height: 100vh;
+      position: static;
+      background-image: url(img/back.jpg);
+      /*background-color: grey;*/
+      background-position: center center;
+      background-size: cover;
+      box-shadow: 0 0 0 9999px rgba(0,0,0,0.55) inset;
+      top: 0;
+  }
+  .thanks__logotext{
+    color: #fff;
+  }
+  .thanks.flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .thanks h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .thanks h3{
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 0;
+    text-align: center;
+  }
+@media (max-width: 767px){
+  .thanks{
+    height: auto;
+    min-height: 100vh;
+  }
+  .thanks-footer{
+    padding: 20px 0 100px;
+  }
+  .thanks-footer .footer12{
+    justify-content: center;
+  }
+  .thanks h2{
+    font-size: 25px;
+    margin: 20px 0;
+  }
+  .thanks h3{
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+}
+  </style>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5Z756Q6J');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LL0QP21G6C"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LL0QP21G6C');
+</script>
+
+</head>
+<body class="loaded">
+
+	<div class="thanks flex">
+		<h2>Дякуємо, Вашу заявку на розрахунок прийнято!</h2>
+		<h3>Ми зв'яжемось з Вами протягом 60 хвилин</h3>
+		<h3>(у робочий час з 9:00 до 18:00) або на початку </h3>
+		<h3>наступного робочого дня</h3>
+	</div>
+  <script>
+    setTimeout(() => {
+        window.location.href = window.location.href.replace('/thanks.html', '');
+    }, 10000)
+</script>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5Z756Q6J"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+</body>
+</html>
