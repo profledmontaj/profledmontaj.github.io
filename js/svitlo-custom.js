@@ -226,7 +226,7 @@ window.addEventListener('DOMContentLoaded', () => {
         if (data['Телефон'] !== null && data['Телефон'] !== undefined && data['Телефон'] !== '' && data["Ім'я"] !== null && data["Ім'я"] !== undefined && data["Ім'я"] !== ''   ) {
             console.log(data['Телефон'])
             console.log(data["Ім'я"])
-            response('./server.php', 'POST', data);
+            response('https://profledmontaj.netlify.app/.netlify/functions/contact_submit', 'POST', data);
         }
         
     })
